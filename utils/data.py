@@ -42,3 +42,13 @@ def save_predictions(name, predictions, original_data):
 
 def load_vectors(vector_path, binary=True):
     return KeyedVectors.load_word2vec_format(vector_path, binary=binary)
+
+def get_histogram_data(set):
+    histogram = {}
+
+    for item in set:
+        if item in histogram:
+            histogram[item] += 1
+        else:
+            histogram[item] = 1
+    return histogram
