@@ -1,0 +1,15 @@
+.idea/
+
+data/*
+!data/.gitkeep
+
+checkpoints/*
+!checkpoints/.gitkeep
+
+ELMo/*
+!ELMo/.gitkeep
+
+submissions/*
+!submissions/.gitkeep
+
+scripts/
