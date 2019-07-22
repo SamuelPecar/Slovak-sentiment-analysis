@@ -19,17 +19,6 @@ from utils.data import remap_data_to_3, remap_data_to_3_from_text, load_vectors
 # vectors = load_vectors('./data/prim-6.1-public-all.shuffled.300cbow.bin')
 # vectors.save_word2vec_format('./data/prim-6.1-public-all.shuffled.300cbow.txt', binary=False)
 
-def get_histogram_data(set):
-    histogram = {}
-
-    for item in set:
-        if item in histogram:
-            histogram[item] += 1
-        else:
-            histogram[item] = 1
-    return histogram
-
-
 print('Loading dataset...')
 preprocessing = Preprocessing()
 
