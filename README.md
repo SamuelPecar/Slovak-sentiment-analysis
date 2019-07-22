@@ -16,6 +16,8 @@ The repository contains source code of the models for paper `Improving Sentiment
 
 # Documentation
 
+Code for modules can be found in [repository](https://github.com/SamuelPecar/pytorch_modules).
+Code also require installation of requirements in requirements.txt and [ELMoForManyLangs](https://github.com/HIT-SCIR/ELMoForManyLangs).
 
 # Running commands
 
